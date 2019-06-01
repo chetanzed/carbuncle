@@ -4,10 +4,11 @@ import { NgModule } from '@angular/core'
 import { AppRoutingModule } from './app-routing.module'
 import { AppComponent } from './app.component'
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
-import { CoreModule } from './core/core.module'
+import { CoreModule } from './core/core.module';
+import { ToolbarComponent } from './layout/toolbar/toolbar.component'
 
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [AppComponent, ToolbarComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
