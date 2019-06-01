@@ -38,8 +38,5 @@ testem.log
 .DS_Store
 Thumbs.db
 
-# firebase
+# firebase cache
 /.firebase
-
-# env
-.env
